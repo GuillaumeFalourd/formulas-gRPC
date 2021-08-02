@@ -1,4 +1,4 @@
 {
-	"short": "grpc test hello-world formula",
-	"long": "grpc test hello-world formula"
+	"short": "grpc hello-world golang formula",
+	"long": "grpc hello-world golang formula"
 }
