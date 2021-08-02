@@ -7,7 +7,7 @@ This formula is locally consuming 2 methods (`SayHello` and `SayHelloAgain`) fro
 ## Command
 
 ```bash
-rit grpc test hello-world
+rit grpc hello-world golang
 ```
 
 ## Requirements
@@ -24,4 +24,3 @@ After running the server:
 Run the formula command:
 
 ![Formula](https://user-images.githubusercontent.com/22433243/127925833-0eac6d82-1c68-46c3-984e-739ae3865cc9.png)
-
