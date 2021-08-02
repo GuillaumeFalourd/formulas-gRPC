@@ -25,7 +25,7 @@ Finally, you can check if the repository has been imported correctly by executin
 
 ### 🗃 Repositories
 
-- `rit grpc hello-world golang`: *Formula to consume a local gRPC API ran through [this repository](https://github.com/GuillaumeFalourd/poc-grpc-golang)*
+- `rit grpc hello-world golang`: *Formula to consume a local gRPC API on a server running through [this repository](https://github.com/GuillaumeFalourd/poc-grpc-golang)*.
 
 ## ♻️ Contribute to the repository with your formulas
 
