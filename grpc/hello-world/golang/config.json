@@ -1,0 +1,19 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-go-builder",
+  "inputs": [
+    {
+      "cache": {
+        "active": true,
+        "newLabel": "Type new value. ",
+        "qty": 3
+      },
+      "label": "Type your name: ",
+      "name": "rit_input_text",
+      "required": true,
+      "tutorial": "Your prefer name",
+      "type": "text"
+    }
+  ],
+  "template": "go",
+  "templateRelease:": "2.16.2"
+}
