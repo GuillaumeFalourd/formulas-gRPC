@@ -1,6 +1,6 @@
 [![Security Pipeline](https://github.com/GuillaumeFalourd/formulas-gRPC/actions/workflows/security_pipeline.yml/badge.svg)](https://github.com/GuillaumeFalourd/formulas-gRPC/actions/workflows/security_pipeline.yml)
 
-# Formulas google Remote Procedure Call (RPC)
+# Formulas Google Remote Procedure Call (gRPC)
 
 ## 📚 Documentation
 
