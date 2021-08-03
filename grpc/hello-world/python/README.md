@@ -12,13 +12,15 @@ rit grpc hello-world golang
 
 ## Requirements
 
-- Golang
+- Python3
 - [This repository](https://github.com/GuillaumeFalourd/poc-grpc-python) message server running locally (localhost:50051).
 
 ## Demonstration
 
 After running the server:
 
+![Server](https://user-images.githubusercontent.com/22433243/128037062-33506c90-af5f-448c-bd0a-a4d7cabbde7e.png)
 
 Run the formula command:
 
+![Formula](https://user-images.githubusercontent.com/22433243/128037090-44fef5b9-9e0b-4228-ab21-df9c6854c157.png)
