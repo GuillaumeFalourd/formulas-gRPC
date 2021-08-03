@@ -4,7 +4,7 @@
 
 ## 📚 Documentation
 
-This repository contains Ritchie `poc formulas` consuming gRPC services which that can be executed by [ritchie-cli](https://github.com/ZupIT/ritchie-cli).
+This repository contains Ritchie `poc formulas` consuming gRPC services which can be executed by [ritchie-cli](https://github.com/ZupIT/ritchie-cli).
 
 - [Ritchie CLI documentation](https://docs.ritchiecli.io)
 
