@@ -16,7 +16,7 @@ To import this repository, you need [Ritchie CLI installed](https://docs.ritchie
 Then, you can use the `rit add repo` command manually, or execute the command line below directly on your terminal (since CLI version 2.8.0):
 
 ```bash
-rit add repo --provider="Github" --name="formulas-gRPC" --repoUrl="https://github.com/GuillaumeFalourd/formulas-gRPC" --priority=1
+rit add repo --provider="Github" --name="formulas-gRPC" --repoUrl="https://github.com/GuillaumeFalourd/formulas-gRPC" --priority=1 --tag="1.0.2"
 ```
 
 Finally, you can check if the repository has been imported correctly by executing the `rit list repo` command.
@@ -25,7 +25,9 @@ Finally, you can check if the repository has been imported correctly by executin
 
 ### 🗃 Repositories
 
-- `rit grpc hello-world golang`: *Formula to consume a local gRPC API on a server running through [this repository](https://github.com/GuillaumeFalourd/poc-grpc-golang)*.
+- `rit grpc hello-world golang`
+  - *Formula to consume a local gRPC API on a server running through [this repository](https://github.com/GuillaumeFalourd/poc-grpc-golang)*.
+  - [Formula README file](https://github.com/GuillaumeFalourd/formulas-gRPC/tree/main/grpc/hello-world/golang)
 
 ## ♻️ Contribute to the repository with your formulas
 
