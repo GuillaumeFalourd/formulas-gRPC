@@ -1,0 +1,40 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-python3-builder",
+  "inputs": [
+    {
+      "cache": {
+        "active": true,
+        "newLabel": "Type new value. ",
+        "qty": 3
+      },
+      "label": "Text message: ",
+      "name": "rit_text",
+      "required": true,
+      "type": "text"
+    },
+    {
+      "cache": {
+        "active": true,
+        "newLabel": "Type new value. ",
+        "qty": 3
+      },
+      "label": "Name: ",
+      "name": "rit_name",
+      "required": true,
+      "type": "text"
+    },
+    {
+      "cache": {
+        "active": true,
+        "newLabel": "Type new value. ",
+        "qty": 3
+      },
+      "label": "Surname: ",
+      "name": "rit_surname",
+      "required": true,
+      "type": "text"
+    }
+  ],
+  "template": "python3",
+  "templateRelease:": "2.16.2"
+}
