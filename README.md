@@ -1,13 +1,12 @@
 [![Security Pipeline](https://github.com/GuillaumeFalourd/formulas-gRPC/actions/workflows/security_pipeline.yml/badge.svg)](https://github.com/GuillaumeFalourd/formulas-gRPC/actions/workflows/security_pipeline.yml)
 
-# Formulas gRPC
+# Formulas google Remote Procedure Call (RPC)
 
 ## 📚 Documentation
 
-This repository contains Ritchie formulas which can be executed by [ritchie-cli](https://github.com/ZupIT/ritchie-cli).
+This repository contains Ritchie poc formulas consuming gRPC services which that can be executed by [ritchie-cli](https://github.com/ZupIT/ritchie-cli).
 
 - [Ritchie CLI documentation](https://docs.ritchiecli.io)
-- [Step by step to create a Github profile with Ritchie CLI](https://bit.ly/devtoritgithubcreateprofile)
 
 ## 📊 Use Formulas
 
