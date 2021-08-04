@@ -19,8 +19,8 @@ rit grpc golang hello-world
 
 After running the server:
 
-![Server](https://user-images.githubusercontent.com/22433243/127925819-db4028ca-df64-4d12-9974-a0b0be5c17a4.png)
+![Server](https://user-images.githubusercontent.com/22433243/128190726-c785957f-c66d-4769-ab89-516721348941.png)
 
 Run the formula command:
 
-![Formula](https://user-images.githubusercontent.com/22433243/127925833-0eac6d82-1c68-46c3-984e-739ae3865cc9.png)
+![Formula](https://user-images.githubusercontent.com/22433243/128190773-c12b3737-3541-458c-8105-226cbd3d2aa7.png)
