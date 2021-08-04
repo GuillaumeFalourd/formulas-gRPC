@@ -7,7 +7,7 @@ This formula is locally consuming 2 methods (`SayHello` and `SayHelloAgain`) fro
 ## Command
 
 ```bash
-rit grpc hello-world golang
+rit grpc golang hello-world
 ```
 
 ## Requirements
