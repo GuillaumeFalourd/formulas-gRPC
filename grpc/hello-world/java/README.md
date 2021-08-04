@@ -13,7 +13,7 @@ rit grpc hello-world java
 ## Requirements
 
 - Java 8
-- [This repository](https://github.com/GuillaumeFalourd/poc-grpc-java-maven) message server running locally (localhost:50051).
+- [This repository](https://github.com/GuillaumeFalourd/poc-grpc-java-maven) message server running locally (localhost:9090).
 
 ## Demonstration
 
