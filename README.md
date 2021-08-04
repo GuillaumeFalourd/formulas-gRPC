@@ -26,11 +26,11 @@ Finally, you can check if the repository has been imported correctly by executin
   - *Formula to consume a local gRPC API on a **hello-world server** running through [this repository](https://github.com/GuillaumeFalourd/poc-grpc-golang)*.
   - [Formula README file](https://github.com/GuillaumeFalourd/formulas-gRPC/tree/main/grpc/hello-world/golang)
 
-- `rit grpc hello-world java`
+- `rit grpc login java`
   - *Formula to consume a local gRPC API on a **login server** running through [this repository](https://github.com/GuillaumeFalourd/poc-grpc-java-maven)*.
   - [Formula README file](https://github.com/GuillaumeFalourd/formulas-gRPC/tree/main/grpc/login/java)
 
-- `rit grpc hello-world python`
+- `rit grpc message python`
   - *Formula to consume a local gRPC API on a **message server** running through [this repository](https://github.com/GuillaumeFalourd/poc-grpc-python)*.
   - [Formula README file](https://github.com/GuillaumeFalourd/formulas-gRPC/tree/main/grpc/message/python)
 
