@@ -7,7 +7,7 @@ This formula is locally consuming a method `MessageRequest` from the server gene
 ## Command
 
 ```bash
-rit grpc hello-world golang
+rit grpc hello-world python
 ```
 
 ## Requirements
