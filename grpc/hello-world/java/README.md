@@ -19,8 +19,8 @@ rit grpc hello-world java
 
 After running the server:
 
-
+<img width="1439" alt="Server" src="https://user-images.githubusercontent.com/22433243/128185778-5c57301d-3ef5-435b-a592-9e1fb57caed1.png">
 
 Run the formula command:
 
-
+<img width="370" alt="Formula" src="https://user-images.githubusercontent.com/22433243/128185806-e2a02aa8-6d86-4de2-97cf-37314d00eb59.png">
