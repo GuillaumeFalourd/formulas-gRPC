@@ -19,8 +19,8 @@ rit grpc login java
 
 After running the server:
 
-![Server](https://user-images.githubusercontent.com/22433243/128185778-5c57301d-3ef5-435b-a592-9e1fb57caed1.png)
+![Server](https://user-images.githubusercontent.com/22433243/128188584-1be5d6e4-6e05-4e74-b286-d00e9c052820.png)
 
 Run the formula command:
 
-![Formula](https://user-images.githubusercontent.com/22433243/128185806-e2a02aa8-6d86-4de2-97cf-37314d00eb59.png)
+![Formula](https://user-images.githubusercontent.com/22433243/128188626-6aa25e4b-0b9e-4306-a5f9-85fdb27d29ad.png)
