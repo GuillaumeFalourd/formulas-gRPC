@@ -13,14 +13,14 @@ rit grpc golang hello-world
 ## Requirements
 
 - Golang
-- [This repository](https://github.com/GuillaumeFalourd/poc-grpc-golang) server running locally (localhost:3009).
+- [This repository](https://github.com/GuillaumeFalourd/poc-grpc-golang) server running locally (`localhost:3009`).
 
 ## Demonstration
 
-After running the server:
+**After running the server:**
 
 ![Server](https://user-images.githubusercontent.com/22433243/128190726-c785957f-c66d-4769-ab89-516721348941.png)
 
-Run the formula command:
+**Run the formula command:**
 
 ![Formula](https://user-images.githubusercontent.com/22433243/128190773-c12b3737-3541-458c-8105-226cbd3d2aa7.png)
