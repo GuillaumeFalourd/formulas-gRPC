@@ -23,4 +23,4 @@ After running the server:
 
 Run the formula command:
 
-![Formula](https://user-images.githubusercontent.com/22433243/128188771-ed3c3402-d1d9-4988-80c8-bc0729e93147.png)
+![Formula](https://user-images.githubusercontent.com/22433243/128188869-5c36ce10-d95c-4ed3-b0d7-d18cdda9c020.png)
