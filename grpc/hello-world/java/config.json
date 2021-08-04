@@ -1,0 +1,24 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-java11-builder",
+  "inputs": [
+    {
+      "cache": {
+        "active": true,
+        "newLabel": "Type new value. ",
+        "qty": 3
+      },
+      "label": "Username: ",
+      "name": "rit_username",
+      "required": true,
+      "type": "text"
+    },
+    {
+      "label": "Password: ",
+      "name": "rit_password",
+      "required": true,
+      "type": "text"
+    }
+  ],
+  "template": "java11",
+  "templateRelease:": "2.16.2"
+}
