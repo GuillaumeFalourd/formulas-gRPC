@@ -13,14 +13,14 @@ rit grpc python message
 ## Requirements
 
 - Python3
-- [This repository](https://github.com/GuillaumeFalourd/poc-grpc-python) message server running locally (localhost:50051).
+- [This repository](https://github.com/GuillaumeFalourd/poc-grpc-python) message server running locally (`localhost:50051`).
 
 ## Demonstration
 
-After running the server:
+**After running the server:**
 
 ![Server](https://user-images.githubusercontent.com/22433243/128190984-405a0b5e-fc29-47a5-b95f-e04fccaaafdc.png)
 
-Run the formula command:
+**Run the formula command:**
 
 ![Formula](https://user-images.githubusercontent.com/22433243/128191018-d78be4f9-8146-473e-af44-17b6d77e7e71.png)
