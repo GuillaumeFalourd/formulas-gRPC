@@ -19,8 +19,8 @@ rit grpc message python
 
 After running the server:
 
-![Server](https://user-images.githubusercontent.com/22433243/128037062-33506c90-af5f-448c-bd0a-a4d7cabbde7e.png)
+![Server](https://user-images.githubusercontent.com/22433243/128188725-d3a9deff-9250-480c-bbf0-0efadbfb6924.png)
 
 Run the formula command:
 
-![Formula](https://user-images.githubusercontent.com/22433243/128037090-44fef5b9-9e0b-4228-ab21-df9c6854c157.png)
+![Formula](https://user-images.githubusercontent.com/22433243/128188771-ed3c3402-d1d9-4988-80c8-bc0729e93147.png)
