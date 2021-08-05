@@ -1,0 +1,3 @@
+[submodule "grpc/golang/poc/proto"]
+	path = grpc/golang/poc/proto
+	url = https://github.com/GuillaumeFalourd/poc-proto.git
