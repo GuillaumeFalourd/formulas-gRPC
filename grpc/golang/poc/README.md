@@ -27,6 +27,8 @@ rit grpc golang poc
 
 ## How does it work?
 
+Reference: [Go generated code](https://developers.google.com/protocol-buffers/docs/reference/go-generated#package)
+
 1 - The `protos` submodules as been added at the formula `root` repository based on [this Github repository](https://github.com/GuillaumeFalourd/poc-proto).
 
 2 - To generate files from the `protos/user/user.proto` file, use the `make gen-go-proto` at the formula root directory (here `grpc/golang/poc`).
