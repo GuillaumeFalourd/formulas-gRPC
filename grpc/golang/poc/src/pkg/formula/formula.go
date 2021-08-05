@@ -10,7 +10,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	pb "formula/pkg/formula/poc_grpc_golang/proto"
+	pb "formula/pkg/formula/protos/user"
 )
 
 const (

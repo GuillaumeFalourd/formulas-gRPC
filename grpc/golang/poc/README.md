@@ -24,3 +24,23 @@ rit grpc golang poc
 **Run the formula command:**
 
 ![Formula](TODO)
+
+## How does it work?
+
+1 - The `protos` submodules as been added at the formula `root` repository based on [this Github repository](https://github.com/GuillaumeFalourd/poc-proto).
+
+2 - To generate files from the `protos/user/user.proto` file, use the `make gen-go-proto` at the formula root directory (here `grpc/golang/poc`).
+
+3 - Files will be generated inside the `./poc/src/pkg/formula` folder on a new `protos/user` directory.
+
+4 - To use those files, you need to add a new import inside the `formula.go` class: `formula/pkg/formula/protos/user`.
+
+5 - Then, implement the formula to call the gRPC service you wish.
+
+_**Note**: If the `user.proto` is updated from the remote repository. You can update it on the formula using the followigin command_
+
+```bash
+git submodule update --remote --recursive
+```
+
+_Then, execute `step 2` again (to update protos files) and update the formula implementation._

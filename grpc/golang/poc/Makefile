@@ -21,12 +21,12 @@ BIN_WINDOWS=$(BIN_FOLDER_WINDOWS)/$(BIN_NAME).exe
 build: go-build sh-unix bat-windows docker
 
 gen-go-proto:
-	mkdir src/pkg/formula/poc_grpc_golang
-	protoc --go_out=src/pkg/formula/poc_grpc_golang \
+	mkdir -p src/pkg/formula
+	protoc --go_out=src/pkg/formula \
 		--go_opt=paths=source_relative \
-		--go-grpc_out=src/pkg/formula/poc_grpc_golang \
+		--go-grpc_out=src/pkg/formula \
 		--go-grpc_opt=paths=source_relative \
-		proto/user.proto
+		protos/user/user.proto
 
 go-build:
 	cd src; mkdir -p $(BIN_FOLDER_DARWIN) $(BIN_FOLDER_LINUX) $(BIN_FOLDER_WINDOWS)
