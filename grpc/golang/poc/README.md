@@ -31,6 +31,8 @@ rit grpc golang poc
 
 2 - To generate files from the `protos/user/user.proto` file, use the `make gen-go-proto` at the formula root directory (here `grpc/golang/poc`).
 
+_Note that the proto file currently needs to have a `go_package` informed to work._
+
 3 - Files will be generated inside the `./poc/src/pkg/formula` folder on a new `protos/user` directory.
 
 4 - To use those files, you need to add a new import inside the `formula.go` class: `formula/pkg/formula/protos/user`.
