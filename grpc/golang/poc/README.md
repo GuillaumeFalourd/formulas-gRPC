@@ -19,8 +19,8 @@ rit grpc golang poc
 
 **After running the server:**
 
-![Server](TODO)
+![Server](https://user-images.githubusercontent.com/22433243/128401342-06730cb8-01ee-40a7-8ba4-3a33f2f8421f.png)
 
 **Run the formula command:**
 
-![Formula](TODO)
+![Formula](https://user-images.githubusercontent.com/22433243/128401370-a2ba5cd3-d92f-4c44-9950-c67baac24ff5.png)
