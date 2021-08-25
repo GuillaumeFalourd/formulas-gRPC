@@ -1,6 +1,4 @@
-[submodule "grpc/golang/poc/proto"]
-	path = grpc/golang/poc/proto
-	url = https://github.com/GuillaumeFalourd/poc-proto.git
+
 [submodule "grpc/golang/poc/protos"]
 	path = grpc/golang/poc/protos
 	url = https://github.com/GuillaumeFalourd/poc-proto.git

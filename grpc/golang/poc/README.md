@@ -25,13 +25,31 @@ rit grpc golang poc
 
 ![Formula](https://user-images.githubusercontent.com/22433243/128401370-a2ba5cd3-d92f-4c44-9950-c67baac24ff5.png)
 
+* * *
+
 ## How does it work?
 
 Reference: [Go generated code](https://developers.google.com/protocol-buffers/docs/reference/go-generated#package)
 
 1 - The `protos` submodules as been added at the formula `root` repository based on [this Github repository](https://github.com/GuillaumeFalourd/poc-proto).
 
+- To add a submodule: _e.g `git submodule add https://github.com/GuillaumeFalourd/poc-proto.git protos`_
+- To update a submodule: _e.g `git submodule update --remote --recursive`_
+- To init a submodule after a clone: _e.g `git submodule init` then `git submodule update`_
+
 2 - To generate files from the `protos/user/user.proto` file, use the `make gen-go-proto` at the formula root directory (here `grpc/golang/poc`).
+
+_Add a method like this to the Makefile:_
+
+```shell
+gen-go-proto:
+	mkdir -p src/pkg/formula
+	protoc --go_out=src/pkg/formula \
+		--go_opt=paths=source_relative \
+		--go-grpc_out=src/pkg/formula \
+		--go-grpc_opt=paths=source_relative \
+		protos/user/user.proto
+```
 
 _Note that the proto file currently needs to have a `go_package` informed to work._
 
@@ -40,6 +58,8 @@ _Note that the proto file currently needs to have a `go_package` informed to wor
 4 - To use those files, you need to add a new import inside the `formula.go` class: `formula/pkg/formula/protos/user`.
 
 5 - Then, implement the formula to call the gRPC service you wish.
+
+* * *
 
 _**Note**: If the `user.proto` is updated from the remote repository. You can update it on the formula using the followigin command_
 

@@ -24,18 +24,17 @@ type Formula struct {
 }
 
 func (f Formula) Run() {
-
 	// Set up a connection to the server.
-	conn, err := grpc.Dial(address, grpc.WithInsecure(), grpc.WithBlock())
+	ctx, cancel := context.WithTimeout(context.Background(), 5000*time.Millisecond) // 5000 Millisecond is the timeout allowed
+	conn, err := grpc.DialContext(ctx, address, grpc.WithInsecure(), grpc.WithBlock())
 	if err != nil {
-		log.Fatalf("did not connect: %v", err)
+		log.Fatalf("Couldn't connect: %v", err)
 	}
 	defer conn.Close()
 	c := pb.NewUserClient(conn)
+	defer cancel()
 
 	// Call server Login method through gRPC.
-	ctx, cancel := context.WithTimeout(context.Background(), time.Second)
-	defer cancel()
 	r, err := c.Login(ctx, &pb.LoginRequest{Username: f.Username, Password: f.Password})
 	if err != nil {
 		log.Fatalf("Unexpected Error: %v", err)
