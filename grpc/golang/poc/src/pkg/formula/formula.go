@@ -41,6 +41,6 @@ func (f Formula) Run() {
 	}
 
 	// Print response outputs
-	log.Printf("Response Message: %s", r.Responsemessage)
+	log.Printf("Response Message: %s", r.ResponseMessage)
 	log.Printf("Response Code: %d", r.ResponseCode)
 }
